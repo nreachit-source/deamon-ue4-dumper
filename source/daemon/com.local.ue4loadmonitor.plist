@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.local.ue4loadmonitor</string>
+    <key>POSIXSpawnType</key>
+    <string>Interactive</string>
+    <key>ProcessType</key>
+    <string>Interactive</string>
+    <key>ProgramArguments</key>
+    <array>
+        <string>/var/jb/usr/local/libexec/ue4loadmonitor</string>
+    </array>
+    <key>RunAtLoad</key>
+    <true/>
+    <key>KeepAlive</key>
+    <true/>
+    <key>UserName</key>
+    <string>root</string>
+    <key>ThrottleInterval</key>
+    <integer>5</integer>
+    <key>EnableTransactions</key>
+    <false/>
+    <key>EnablePressuredExit</key>
+    <false/>
+    <key>JetsamMemoryLimit</key>
+    <integer>104857600</integer>
+    <key>JetsamProperties</key>
+    <dict>
+        <key>JetsamMemoryLimit</key>
+        <integer>100</integer>
+    </dict>
+</dict>
+</plist>

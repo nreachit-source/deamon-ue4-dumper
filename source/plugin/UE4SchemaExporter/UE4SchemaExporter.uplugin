@@ -1,0 +1,17 @@
+{
+  "FileVersion": 3,
+  "Version": 1,
+  "VersionName": "1.0.0",
+  "FriendlyName": "UE4 Schema Exporter",
+  "Description": "Exports UE4 reflected type structure without reading object values.",
+  "Category": "Development",
+  "CanContainContent": false,
+  "Installed": false,
+  "Modules": [
+    {
+      "Name": "UE4SchemaExporter",
+      "Type": "Runtime",
+      "LoadingPhase": "PostEngineInit"
+    }
+  ]
+}

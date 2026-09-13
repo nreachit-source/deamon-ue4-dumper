@@ -1,0 +1,15 @@
+Package: com.local.ue4loadmonitor
+Name: UE4 Load Monitor
+Version: 1.2.2
+Architecture: iphoneos-arm64
+Description: Detects UE4 app process and exports reflected type schema.
+Maintainer: Local Development
+Author: Local Development
+Section: Development
+Depends: firmware (>= 13.0)
+Filename: debs/com.local.ue4loadmonitor_1.2.2_iphoneos-arm64.deb
+Size: 14244
+MD5sum: 8edcd1a9c48e7c7ed79938c1cb638344
+SHA1: c3c887686ed18bc36f07f8d07d17cc860e381768
+SHA256: 2fbde53a224ef9af8151e4b1fa14a1ada729007af1711e61ea083a2d5dc2c459
+
